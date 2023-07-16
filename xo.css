@@ -1,0 +1,50 @@
+.ro{
+    width:550px;
+    height:550px;
+    display: grid;
+    background-color:#eee;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border:10px solid rgb(163, 163, 255)
+}
+.one,.four{
+    border-bottom:5px solid rgb(245, 203, 147);
+    border-right: 5px solid rgb(245, 203, 147);
+    font-size: 100px;
+    color:red;
+    display:flex;
+    justify-content: center;
+}
+.two,.five{
+    border-bottom:5px solid rgb(245, 203, 147);
+    border-right: 5px solid rgb(245, 203, 147);
+    font-size: 100px;
+    color:red;
+    display:flex;
+    justify-content: center;
+}
+.three,.six{
+    border-bottom:5px solid rgb(245, 203, 147);
+    font-size: 100px;
+    color:red;
+    display:flex;
+    justify-content: center;
+}
+.seven,.eight{
+    border-right: 5px solid rgb(245, 203, 147);
+    font-size: 100px;
+    color:red;
+    display:flex;
+    justify-content: center;
+}
+.nine{
+    font-size: 100px;
+    color:red;
+    display:flex;
+    justify-content: center;
+}
+p{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
